@@ -1,0 +1,47 @@
+* {
+    margin:0 auto;
+    padding:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:900;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+   
+}
+
+h1 {
+    display:block;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 20vw;
+    
+    border-radius: 5%;
+    margin-top: 1vw;
+    border: 1px solid gray;
+
+}
+div{
+    background-color: rgb(182, 177, 177);
+    margin: 1%;
+}
+
+div#barralateral {
+    /*
+    position: absolute;
+    top: 10px;
+    */
+    float:left;
+    width:11%;
+    height: 50vw;
+    
+}
+
+div#conteudo {
+    float:right;
+    width: 85%;
+    height: auto;
+}
