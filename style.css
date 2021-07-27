@@ -17,8 +17,7 @@ h1 {
 
 img {
     display: block;
-    width: 20vw;
-    
+    max-width: 50%;
     border-radius: 5%;
     margin-top: 1vw;
     border: 1px solid gray;
