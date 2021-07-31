@@ -27,13 +27,14 @@ img {
 
 }
 
-p {
-    padding: 2px;
+a {
+    display: block;
+    padding: 2px 15px ;
     border-radius: 5px;
     box-shadow: 1px 2px 5px gray;
     margin-bottom: 10px;
 }
-p:hover {
+a:hover {
     background-color: rgb(212, 200, 214);
     border-radius: 5px;
 }
@@ -81,13 +82,13 @@ a {
 
 @media (max-width: 600px) {
     .conteudo {
-        width:80%;
-        padding: 7%;
-        min-height: 70vw;
+        width:96%;
+        padding: ;
+        
     }
 
     .cabecalho{
-        width:90%;
+        width:96%;
 
     }
 
@@ -97,8 +98,8 @@ a {
     h1 {
         font-size:25px;
     }
-    p {
-        padding: 2px;
+    a {
+        padding: 2px 15px ;
         font-size:18px;
         border-radius: 5px;
         box-shadow: 1px 2px 5px gray;
@@ -108,7 +109,7 @@ a {
         font-size: 1em;
     }
     
-    p:hover {
+    a:hover {
         background-color: rgb(212, 200, 214);
         border-radius: 5px;
     }
