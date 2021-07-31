@@ -17,10 +17,10 @@ h1 {
 
 img {
     display: block;
-    max-width: 50%;
-    border-radius: 5%;
+    max-width: 10%;
+    border-radius: 50%;
     margin-top: 1vw;
-    border: 1px solid gray;
+    border: 3px solid gray;
 
 }
 div{
@@ -28,7 +28,7 @@ div{
     margin: 1%;
 }
 
-div#barralateral {
+div.barralateral {
     /*
     position: absolute;
     top: 10px;
@@ -39,8 +39,8 @@ div#barralateral {
     
 }
 
-div#conteudo {
+div.conteudo {
     float:right;
     width: 85%;
-    height: auto;
+    height: 50vw;
 }
