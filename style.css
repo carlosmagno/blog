@@ -43,7 +43,7 @@ a:hover {
 }
 .cabecalho {
     margin: 0 auto;
-    background-color: rgb(34, 12, 63);
+    background-color: rgb(53, 6, 116);
     color: cornsilk;
     width:70%;
     padding: 0.5vw 2vw;
@@ -77,7 +77,8 @@ div.lateral {
     background-color: rgb(255, 255, 255);
     width:22%;
     text-align: center;
-    border-left: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px gray;
     min-height: 80vh;
     
 }
@@ -87,6 +88,19 @@ hr {
     padding: 0 15px ;
 }
 
+.lateral>h3 {
+   border-bottom: 1px solid gray;
+   background-color: rgb(53, 6, 116);
+   color: cornsilk;
+   border-radius: 5px 5px 0 0; 
+}
+
+h2 {
+    padding: 2px 15px ;
+    width: 70%;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
 footer{
 
     padding-top:20px;
@@ -117,6 +131,8 @@ footer{
 
     h2 {
         font-size:22px;
+        padding: 2px 15px ;
+        width: 87vw;
     }
     h1 {
         font-size:25px;
