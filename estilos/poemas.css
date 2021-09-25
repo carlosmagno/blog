@@ -10,6 +10,15 @@ body {
 
 }
 
+.conteudo>a {
+    display: inline-block;
+    width: 95%;
+    text-align: left;
+    background-color: white;
+    padding-left: 5%;
+    padding-top: 5%;
+    
+}
 div.barralateral {
     /*
     position: absolute;
