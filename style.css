@@ -27,7 +27,7 @@ img {
 
 }
 
-.conteudo>a {
+.principal a {
     display: block;
     width: 70%;
     padding: 2px 15px ;
@@ -37,7 +37,19 @@ img {
     text-decoration: none;
 
 }
-.conteudo>a:hover {
+
+.lateral a {
+    display: block;
+    width: 100%;
+    /* padding: 2px 15px ;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px gray;
+    margin-bottom: 10px; */
+    text-decoration: none;
+
+}
+
+.principal a:hover, .lateral a:hover{
     background-color: rgb(212, 200, 214);
     border-radius: 5px;
 }
@@ -110,7 +122,7 @@ h4 {
 
 }
 footer{
-
+    /* position: static; */
     padding-top:20px;
     padding-bottom: 20px;
     width:100%;
@@ -124,7 +136,7 @@ footer{
 @media (max-width: 900px) {
     .conteudo {
         width:96%;
-        height: 80vh;
+        /* height: 80vh; */
        
         
     }
@@ -148,7 +160,7 @@ footer{
     hr{
         width: 87vw; 
     }
-    .conteudo>a {
+    .conteudo a {
         width: 87vw;
         padding: 2px 15px ;
         font-size:18px;
@@ -174,9 +186,10 @@ footer{
     
     }
     footer{
-
+        /* margin-bottom: 0; */
         padding-top:20px;
         font-size:15px;
+        /* height: 10vh; */
         width:100%;
         text-align: center;
     
